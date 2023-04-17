@@ -1,9 +1,5 @@
-
-export default function Home() {
-  return (
-    <>
-      
-      <head>
+<html>
+  <head>
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -14,15 +10,11 @@ export default function Home() {
         id="canvas"
         width="280"
         height="280"
-        position= "absolute"
-        top = "50%"
-        lett= "50%"
-        margin-right= "-50%"
-        transform="translate(-50%, -50%)"
       ></canvas>
 
       <div class="button" id="clear-button">CLEAR</div>
-      <div class="button" id="mint-button">MINT IT</div> 
+      <div class="button" id="mint-button">MINT IT</div>
+
       <div class="predictions">
         <div class="prediction-col" id="prediction-0">
           <div class="prediction-bar-container">
@@ -94,18 +86,9 @@ export default function Home() {
           <div class="prediction-number">9</div>
         </div>
       </div>
-      <br>
-      </br>
-      <div>
-       <label for = "sig">SIGNATURE: </label>
-      <input type = "text" id="sig" name="sig" value="gsgsgsgsgss7s8s8sushshshs8s8s8s8s8s8s8s8s8s8s8s8s8s8s8s8"/> </div> 
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
-
-    <script  src="script.js"></script>
+    <script src="script.js"></script>
   </body>
-
-    </>
-  );
-}
+</html>
