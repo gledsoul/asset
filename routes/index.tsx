@@ -22,7 +22,7 @@ export default function Home() {
       ></canvas>
 
       <div class="button" id="clear-button">CLEAR</div>
-      <div class="button" id="mint-button">MINT</div> 
+      <div class="button" id="mint-button">MINT IT</div> 
       <div class="predictions">
         <div class="prediction-col" id="prediction-0">
           <div class="prediction-bar-container">
@@ -98,7 +98,7 @@ export default function Home() {
       </br>
       <div>
        <label for = "sig">SIGNATURE: </label>
-      <input type = "text" id="sig" name="sig" value="gsgsgsgsgss7s8s8sushshshs8s8s8s8s8s8s8s8s8s8s8s8s8s8s8s8"/>         </div> 
+      <input type = "text" id="sig" name="sig" value="gsgsgsgsgss7s8s8sushshshs8s8s8s8s8s8s8s8s8s8s8s8s8s8s8s8"/> </div> 
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
